@@ -11,3 +11,5 @@ Key: identify the essense
   * fuzzy logic
 * inference
 * planning
+* AI for Games
+  * [A* search](https://gabrielgambetta.com/generic-search.html)
