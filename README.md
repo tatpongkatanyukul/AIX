@@ -15,3 +15,8 @@ Key: identify the essense
 * planning
 * AI for Games
   * [A* search](https://gabrielgambetta.com/generic-search.html)
+
+# Special note
+
+  * "we want machines that strive to achieve human objectives but know that they don't know for certain exactly what those objective are."
+    * Ch. 16, 18, 22, and 27. 
