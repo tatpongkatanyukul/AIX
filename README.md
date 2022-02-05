@@ -37,7 +37,7 @@ E.g., rat/child/man experiment
 ### Hands-on
 
 ### Intractability
-a problem is called \underline{intractable} if the time required to solve instances of the problem grows exponentially with the size of the instances.
+a problem is called **intractable** if the time required to solve instances of the problem grows exponentially with the size of the instances.
 
 ### Probability
 
