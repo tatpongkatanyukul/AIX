@@ -1,4 +1,4 @@
-# Around The AI World of AI in 80 Exercises
+# Around The World of AI in 80 Exercises
 
 Tool: MS Word
 
