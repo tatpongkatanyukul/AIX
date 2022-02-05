@@ -7,12 +7,13 @@
 Key: identify the essense
 * search
   * beam search, simulated annealing, genetic algorithm
-* knowledge representation
-  * first-order logic 
+* knowledge representation and inference
+  * propositional logic 
 * handle uncertainty
-  * fuzzy logic
-* inference
+  * probability
 * planning
+* machine learning
+* natural language processing
 * AI for Games
   * [A* search](https://gabrielgambetta.com/generic-search.html)
 
