@@ -10,7 +10,7 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
 4. Write a KB file (put the file in the same location, e.g., ```./2022/AI/Prolog/db.pl``` and the ```./2022/AI/Prolog``` is where ```gprolog``` is called
 5. Prolog is a logic programming, not imperative!
   * predicates (knowledge base and information) are defined in the file or if want to enter from the console use ```consult(user).``` and end it with the end-of-file (e.g., Control-D).
-7. [Prolog syntax](https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Prolog.html):
+6. [Prolog syntax](https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Prolog.html):
   * every statement ends with period ```.```
     * E.g., ```wizard(harrypotter).``` (for information) and ```wizard(X).``` (for query who is the wizard). 
   * load database: ```[db].``` or ```consult('./db.pl').``` (to load ```db.pl```)
@@ -33,6 +33,8 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
 
 7. Equivalent program python vs. prolog
   * Standard input/output
+    * python: ```print('Hello')```
+    * prolog: ```write('Hello').``` 
   * Assignment vs Unification
     * python: assignment
     ```python
