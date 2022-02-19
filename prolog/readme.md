@@ -39,7 +39,13 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
         mortal(Name).
         ```
         * query: ```ask_and_reason.```
-
+      * 4. Write input and output of the program in the pattern
+        * kb
+        ```prolog
+        sqr(X, Y) :-
+        Y is X * X.
+        ```
+        * query: ```sqr(5, Y).```
   * ```is```
   * ```,```: logical and
   * ```|```: logical or
