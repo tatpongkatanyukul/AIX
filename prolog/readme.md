@@ -37,7 +37,7 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
     * prolog: ```write('Hello').``` 
     * python: ```X = input('Enter: ')```
     * prolog: ```read(X).``` (or ```get(X).``` for one character)
-      * finishing the input with ```.``` and <enter>. 
+      * finishing the input with ```.``` and press ENTER. 
   * Assignment vs Unification
     * python: assignment
     ```python
