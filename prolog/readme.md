@@ -93,14 +93,14 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
   * Seem promising, but not working yet.
 
 ## Write a Prolog program
+  * See [more examples](https://swish.swi-prolog.org/example/io.pl)
 
-
-
-Wumpus agent
-```prolog
-pit(X, Y) :- breeze(Xn, Y), X is Xn - 1, X + Y > 0.
-pit(X, Y) :- breeze(Xn, Y), X is Xn + 1, X + Y > 0.
-pit(X, Y) :- breeze(X, Yn), Y is Yn - 1, X + Y > 0.
-pit(X, Y) :- breeze(X, Yn), Y is Yn + 1, X + Y > 0.
-breeze(1, 0). /* percept info */
-```
+  * Wumpus agent
+  ```prolog
+  pit(X, Y) :- breeze(Xn, Y), X is Xn - 1, X + Y > 0.
+  pit(X, Y) :- breeze(Xn, Y), X is Xn + 1, X + Y > 0.
+  pit(X, Y) :- breeze(X, Yn), Y is Yn - 1, X + Y > 0.
+  pit(X, Y) :- breeze(X, Yn), Y is Yn + 1, X + Y > 0.
+  breeze(1, 0). /* percept info */
+  ```
+    * This code does not really do the logical or, i.e., B(X, Y) <-> P(X-1, Y) | P(X+1, Y) | P(X, Y-1) | P(X, Y+1).
