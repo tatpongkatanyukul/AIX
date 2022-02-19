@@ -62,10 +62,14 @@ Game theory
 
 ### Installation (on Mac)
 
-1. ```brew install gun-prolog```
+1. ```brew install gnu-prolog```
 If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
 
-2. Prolog syntax:
+2. Start Prolog: ```gprolog```
+3. Exit Prolog: ```halt.```
+4. Write a KB file (put the file in the same location, e.g., ```./2022/AI/Prolog/db.pl``` and the ```./2022/AI/Prolog``` is where ```gprolog``` is called
+5. Prolog syntax:
+  * 
   * load database: ```[db].``` (to load ```db.pl```)
   * constants: starting with small cap, e.g., ```linghuchong```, ```yuebuqun```
   * variables: starting with cap, e.g., ```X```, ```Wuxia```
@@ -75,5 +79,6 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
   * ```,```: logical and
   * ```;```: logical or
   * ```not```: logical not
+6. Run prolog in script mode
 
 
