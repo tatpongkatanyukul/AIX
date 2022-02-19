@@ -76,7 +76,7 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
     * reload database everytime the database got changed. (by ```[<db name>].```) 
   * constants: starting with small cap, e.g., ```linghuchong```, ```yuebuqun```
   * variables: starting with cap, e.g., ```X```, ```Wuxia```
-  * underscore ```_``` means anything (if exists) and we don't care the value of it.
+  * a single underscore ```_``` means anonymous variable we don't care about its value.
   * predicate: name following by the parentheses and its (optional) argument(s) inside the parentheses.
   * ```:-```: "if"
     * E.g., ```mortal(X) :- man(X).``` reads "X is mortal if X is a man." 
