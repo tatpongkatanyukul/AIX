@@ -47,7 +47,17 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
     ```prolog
     X = Y, X = 2, write(Y).
     ```
-    
   * Condition
   * Iteration
 8. Run prolog in script mode
+
+
+## Write a Prolog program
+
+1. Condition
+```prolog
+abs(X, Y) :- X < 0, Y is -X.
+abs(X, X) :- X >= 0.
+```
+
+  * Query: ```abs(15, A)``` reads "what (A) is the absolute value of 15?"
