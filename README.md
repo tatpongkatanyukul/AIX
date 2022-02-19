@@ -57,3 +57,12 @@ a problem is called **intractable** if the time required to solve instances of t
 Math
 Probability
 Game theory
+
+## Prolog
+
+### Installation (on Mac)
+
+1. ```brew install gun-prolog```
+If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
+
+2. 
