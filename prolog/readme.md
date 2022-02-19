@@ -64,9 +64,9 @@ abs(X, X) :- X >= 0.
 
 Wumpus agent
 ```prolog
-pit(X, Y) :- breeze(Xn, Y), X is Xn - 1.
-pit(X, Y) :- breeze(Xn, Y), X is Xn + 1.
-pit(X, Y) :- breeze(X, Yn), Y is Yn - 1.
-pit(X, Y) :- breeze(X, Yn), Y is Yn + 1.
-breeze(1, 0).
+pit(X, Y) :- breeze(Xn, Y), X is Xn - 1, X + Y > 0.
+pit(X, Y) :- breeze(Xn, Y), X is Xn + 1, X + Y > 0.
+pit(X, Y) :- breeze(X, Yn), Y is Yn - 1, X + Y > 0.
+pit(X, Y) :- breeze(X, Yn), Y is Yn + 1, X + Y > 0.
+breeze(1, 0). /* percept info */
 ```
