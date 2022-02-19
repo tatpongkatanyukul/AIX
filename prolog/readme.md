@@ -21,6 +21,25 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
   * predicate: name following by the parentheses and its (optional) argument(s) inside the parentheses.
   * ```:-```: "if"
     * E.g., ```mortal(X) :- man(X).``` reads "X is mortal if X is a man." 
+    * This ```:-``` operator serves as a pattern matching, i.e.,
+      * 1. Query
+        * kb: ```mortal(X) :- man(X).```  and ```man(luca)```
+        * query: (1) ```mortal(X).``` (answer ```X = luca```) and (2) ```mortal(luca).``` (answer ```true```)
+      * 2. Program
+        * kb: ```greet :- write('Sawasdee krab').``` (Notice there is no variable on the LHS)
+        * query: ```greet.```
+      * 3. Combination
+        * kb
+        ```prolog
+        mortal(X) :- man(X).
+        man(luca)
+        ask_and_reason :-
+        write('name'),
+        read(Name),
+        mortal(Name).
+        ```
+        * query: ```ask_and_reason.```
+
   * ```is```
   * ```,```: logical and
   * ```|```: logical or
