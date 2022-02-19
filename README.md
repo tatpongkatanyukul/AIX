@@ -85,6 +85,11 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
   * ```|```: logical or
   * ```not```: logical not
   * comments: ```/* ... */```
+  * Execution
+    * declarative reading
+      * E.g., ```mother(X, Y) :- parent(X, Y), female(X).```
+      * "X is the mother of Y if X is a parent of Y and X is female."
+
 7. Equivalent program python vs. prolog
   * Standard input/output
   * Assignment vs Unification
