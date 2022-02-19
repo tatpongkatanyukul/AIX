@@ -87,7 +87,19 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
   * comments: ```/* ... */```
 7. Equivalent program python vs. prolog
   * Standard input/output
-  * Assignment
+  * Assignment vs Unification
+    * python: assignment
+    ```python
+    Y = 8
+    X = Y
+    X = 2
+    print(Y)
+    ```
+    * prolog: unification
+    ```prolog
+    X = Y, X = 2, write(Y).
+    ```
+    
   * Condition
   * Iteration
 8. Run prolog in script mode
