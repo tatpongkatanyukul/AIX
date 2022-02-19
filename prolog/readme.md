@@ -61,3 +61,12 @@ abs(X, X) :- X >= 0.
 ```
 
   * Query: ```abs(15, A)``` reads "what (A) is the absolute value of 15?"
+
+Wumpus agent
+```prolog
+pit(X, Y) :- breeze(Xn, Y), X is Xn - 1.
+pit(X, Y) :- breeze(Xn, Y), X is Xn + 1.
+pit(X, Y) :- breeze(X, Yn), Y is Yn - 1.
+pit(X, Y) :- breeze(X, Yn), Y is Yn + 1.
+breeze(1, 0).
+```
