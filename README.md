@@ -84,7 +84,7 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
   * ```,```: logical and
   * ```|```: logical or
   * ```not```: logical not
-  * comments: 
+  * comments: ```/* ... */```
 7. Equivalent program python vs. prolog
   * Standard input/output
   * Assignment
