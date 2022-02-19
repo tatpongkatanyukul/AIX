@@ -81,6 +81,16 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
 
 8. Run prolog in script mode
 
+  * at shell: ```./prolog_test.sh```
+  * The content of the shell script
+  ```
+  #!/usr/local/bin/gprolog --consult-file
+  [wumpus].
+  pit(X,Y).
+  write('pit', X, Y).
+  halt.
+  ```
+  * Seem promising, but not working yet.
 
 ## Write a Prolog program
 
