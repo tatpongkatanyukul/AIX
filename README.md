@@ -73,7 +73,7 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
   * ```:-```
   * ```is```
   * ```,```: logical and
-  * ```;```; logical or
-  * ```not```; logical not
+  * ```;```: logical or
+  * ```not```: logical not
 
 
