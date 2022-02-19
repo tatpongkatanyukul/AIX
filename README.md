@@ -69,7 +69,8 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
 3. Exit Prolog: ```halt.```
 4. Write a KB file (put the file in the same location, e.g., ```./2022/AI/Prolog/db.pl``` and the ```./2022/AI/Prolog``` is where ```gprolog``` is called
 5. Prolog syntax:
-  * 
+  * every statement ends with period ```.```
+    * E.g., ```wizard(harrypotter).``` (for information) and ```wizard(X).``` (for query who is the wizard). 
   * load database: ```[db].``` (to load ```db.pl```)
   * constants: starting with small cap, e.g., ```linghuchong```, ```yuebuqun```
   * variables: starting with cap, e.g., ```X```, ```Wuxia```
