@@ -35,6 +35,8 @@ If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
   * Standard input/output
     * python: ```print('Hello')```
     * prolog: ```write('Hello').``` 
+    * python: ```X = input('Enter: ')```
+    * prolog: ```read(X).``` (or ```get(X).``` for one character)
   * Assignment vs Unification
     * python: assignment
     ```python
