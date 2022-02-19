@@ -65,4 +65,15 @@ Game theory
 1. ```brew install gun-prolog```
 If there is no ```brew``` installed, install [Homebrew](https://brew.sh).
 
-2. 
+2. Prolog syntax:
+  * load database: ```[db].``` (to load ```db.pl```)
+  * constants: starting with small cap, e.g., ```linghuchong```, ```yuebuqun```
+  * variables: starting with cap, e.g., ```X```, ```Wuxia```
+  * predicate: name following by the parentheses and its (optional) argument(s) inside the parentheses.
+  * ```:-```
+  * ```is```
+  * ```,```: logical and
+  * ```;```; logical or
+  * ```not```; logical not
+
+
