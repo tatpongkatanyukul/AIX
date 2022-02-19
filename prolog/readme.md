@@ -1,6 +1,11 @@
 # Prolog
   * [SWI Prolog]
+  * [PySWIP](https://github.com/yuce/pyswip) Prolog Interface for Python
   * [Prolog in Python](https://www.openbookproject.net/py4fun/prolog/prolog1.html) (Risky? performance-wise and completeness-wise)
+  * TODO (sequential!)
+    * 1. Try SWI Prolog on script.
+    * 2. Python runs script and gets the console results.
+    * 3. Get this into a docker image, so that I can have it as a logic exercise.
 
 ## Installation (on Mac)
 
