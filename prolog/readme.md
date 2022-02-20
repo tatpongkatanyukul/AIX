@@ -64,6 +64,7 @@
       * "X is the mother of Y if X is a parent of Y and X is female."
 
 7. Equivalent program python vs. prolog
+  * See [examples of prolog programs](https://github.com/tatpongkatanyukul/AIX/raw/main/prolog/db.pl)
   * Standard input/output
     * python: ```print('Hello')```
     * prolog: ```write('Hello').``` 
