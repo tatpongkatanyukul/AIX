@@ -138,3 +138,17 @@
   breeze(1, 0). /* percept info */
   ```
     * This code does not really do the logical or, i.e., B(X, Y) <-> P(X-1, Y) | P(X+1, Y) | P(X, Y-1) | P(X, Y+1).
+
+
+## Autolab
+
+1. Login autolab and start docker container
+```
+ docker run -v /home/tatpong/sandbox:/home/sandbox -it python39npswipl_image bash
+``` 
+
+2. Write and test python code to evoke a command line, e.g., ```./pl5```.
+  * An easier approach is to rewrite prolog script to reflect what we want to check.
+  * A harder approach is to use a sorta general code, like [```pl5```](https://github.com/tatpongkatanyukul/AIX/blob/main/prolog/pl5), and have python code to supply the proper commands to the prolog program.
+  * My verdict, from a experience, is to take an easier approach write a customized pair of python and prolog 
+    * or even **just a prolog script having all test cases in the script** and python is just to test the output against the reference output. (I don't even have to change python code, do it just like what I have done for C++).
