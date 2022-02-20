@@ -9,8 +9,8 @@
 
 ## Installation (on Mac)
 
-1. GNU Prolog ```brew install gnu-prolog```. If there is no ```brew``` installed, install [Homebrew](https://brew.sh). [SWI Prolog](https://www.swi-prolog.org/build/PPA.html): ```apt-get install software-properties-common```, ```apt-add-repository ppa:swi-prolog/stable```, ```apt-get update```, ```apt-get install swi-prolog````.
-2. Start GNU Prolog: ```gprolog```; SWI Prolog: ```dummy```
+1. GNU Prolog ```brew install gnu-prolog```. If there is no ```brew``` installed, install [Homebrew](https://brew.sh). [SWI Prolog](https://www.swi-prolog.org/build/PPA.html): ```apt-get install software-properties-common```, ```apt-add-repository ppa:swi-prolog/stable```, ```apt-get update```, ```apt-get install swi-prolog```.
+2. Start GNU Prolog: ```gprolog```; [SWI Prolog](https://www.swi-prolog.org/pldoc/man?section=cmdline): ```dummy```
 3. Exit Prolog: ```halt.```
 4. Write a KB file (put the file in the same location, e.g., ```./2022/AI/Prolog/db.pl``` and the ```./2022/AI/Prolog``` is where ```gprolog``` is called
 5. Prolog is a logic programming, not imperative!
