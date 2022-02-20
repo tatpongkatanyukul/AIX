@@ -1,0 +1,59 @@
+#!/usr/bin/swipl
+
+:- initialization(main, main).
+
+main(Argv) :-
+  write('Argv ='),
+  format('~w~n', [Argv]), 
+  codeprompt('hello').
+
+codeprompt('bye') :- !.
+codeprompt(Txt):-
+  write('\n*run cmd: '),
+  write(Txt),
+  Txt,
+  write('\n*next cmd: '),
+  read(NextTxt),
+  codeprompt(NextTxt).
+
+mycode([], I) :- !.
+mycode(Argv, I) :-
+  [H|Tail] = Argv,
+  format([I]),
+  format(' cmd: ~w~n', [H]),
+  J is I + 1,
+  mycode(Tail, J).
+  
+
+hello :-
+  write('\nHello, Prolog\n').
+
+wish :-
+  write('\nYou take care\n').
+
+energy(Power, Hour, Wh, J) :-
+  Wh is Power * Hour,
+  J is Wh * 3600.
+
+/* 
+```[H]``` does not run.
+But, ```Txt``` does!
+
+It can be run and query on-the-fly.
+Example,
+
+root@b3dd47e544d3:/home/sandbox/211226# ./pl5
+Warning: /home/sandbox/211226/pl5:19:
+Warning:    Singleton variables: [I]
+Argv =[]
+
+*run cmd: hello
+Hello, Prolog
+
+*next cmd: energy(5, 2, WH, J), format('~w~n',[WH]), format('~w~n',[J]).
+
+*run cmd: energy(5,2,_8494,_8496),format(~w~n,[_8494]),format(~w~n,[_8496])10
+36000
+
+*next cmd: |: bye.
+*/
