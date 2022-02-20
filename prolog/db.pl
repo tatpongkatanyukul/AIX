@@ -13,3 +13,8 @@ uvec(X, Y, Z, UX, UY, UZ) :- (magnitude(X, Y, Z, M), M > 0, UX is X/M, UY is Y/M
 
 balance(Cap, Int, Year) :- Year > 0, B is Cap * (1 + Int), NY is Year - 1, write('\nYear: '), write(NY), write('\nBalance: '), write(B), balance(B, Int, NY).
 
+sum(S, Xs) :- [X|Tail] = Xs, Acc is S + X, write('\nXs: '), write(Xs), write('\nAcc: '), write(Acc), sum(Acc, Tail); write('\nSum = '), write(S).
+
+/* sum(Xs, A, S) :- [X|Tail] = Xs, S is 10 + X. , sum(Tail, B, S). */
+
+/* sum(Xs, S) :- [X|Tail] is Xs, sum(Tail, A), S is X + A, write('Sum='), write(A). */
