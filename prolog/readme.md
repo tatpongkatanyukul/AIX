@@ -6,6 +6,7 @@
 # Reference
   * [Reference](https://www.swi-prolog.org/pldoc/doc_for?object=manual)
     * Notation name/number indicates predicate names and their number of arguments. E.g., module/2 refers to predicate module and it takes 2 arguments; rev/3 refers to rev with 3 arguments.
+    * [Built-in predicates](https://www.swi-prolog.org/pldoc/man?section=builtin)
 
 # Learning Prolog
   * [Learn Prolog Yourself](https://cs.union.edu/~striegnk/courses/esslli04prolog/)
