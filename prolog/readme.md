@@ -7,6 +7,9 @@
   * [Reference](https://www.swi-prolog.org/pldoc/doc_for?object=manual)
     * Notation name/number indicates predicate names and their number of arguments. E.g., module/2 refers to predicate module and it takes 2 arguments; rev/3 refers to rev with 3 arguments.
 
+# Learning Prolog
+  * [Learn Prolog Yourself](https://cs.union.edu/~striegnk/courses/esslli04prolog/)
+
 ## Installation (on Mac)
 
 1. GNU Prolog ```brew install gnu-prolog```. If there is no ```brew``` installed, install [Homebrew](https://brew.sh). [SWI Prolog](https://www.swi-prolog.org/build/PPA.html): ```apt-get install software-properties-common```, ```apt-add-repository ppa:swi-prolog/stable```, ```apt-get update```, ```apt-get install swi-prolog```.
