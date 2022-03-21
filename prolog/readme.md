@@ -14,6 +14,7 @@
     * [Day 2](https://cs.union.edu/~striegnk/courses/esslli04prolog/practical.day2.php)
       * start docker daemon and run ```docker load < python39npswipl.tar``` 
       * start container: ```docker run -v /Users/student01/Desktop/2022/sandbox:/home/sandbox -it python39npswipl_image bash```
+      * start prolog ```swipl```
     * Day 3
     * Day 4
     * Day 5 
