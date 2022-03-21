@@ -12,6 +12,7 @@
   * [Learn Prolog Yourself](https://cs.union.edu/~striegnk/courses/esslli04prolog/)
     * Day 1 (checked Feb 21st, 2022)
     * [Day 2](https://cs.union.edu/~striegnk/courses/esslli04prolog/practical.day2.php)
+      * ```docker load < python39npswipl.tar``` 
     * Day 3
     * Day 4
     * Day 5 
