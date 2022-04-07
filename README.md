@@ -10,6 +10,7 @@
   * **ANN (3rd year)**: ANN, inc. ML. I will focus on supervised learning here.
   * **intro to ML (1st year)**: definitely ML. I will focus on basic (curve fitting), decision tree, radial basis function, svm, and unsupervised learning. I may throw in other things as well (e.g., problem solving, programming on various domains, quantum computing)
     * programming on various domains, e.g., basic computer graphics, play with sound, basic cryptography, other cs and non-cs problems.
+  * [**NLP**](https://github.com/tatpongkatanyukul/AIX/tree/main/nlp) 
 
 Key: identify the essense
 * search
